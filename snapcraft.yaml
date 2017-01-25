@@ -9,7 +9,7 @@ confinement: strict # use 'strict' once you have the right plugs and slots
 apps:
   gost:
     command: bin/gost
-    plugs: [network]
+    plugs: [network, network-bind, home]
 
 parts:
   gost:

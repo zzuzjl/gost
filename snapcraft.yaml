@@ -4,7 +4,8 @@ summary: GO Simple Tunnel
 description: |
   A simple tunnel written in golang
 
-#confinement: strict # use 'strict' once you have the right plugs and slots
+grade: stable
+confinement: strict # use 'strict' once you have the right plugs and slots
 
 apps:
   gost:
